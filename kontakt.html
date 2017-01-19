@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <title>Kontakta oss</title>
     <meta charset="UTF-8">
@@ -67,51 +68,45 @@
                         </div>
                         <div>
                             <h2>Kontakta oss direkt</h2><br>
-                            <form action="" method="post">
-                                <table>
-                                    <tr>
-                                        <td>Förnamn: </td>
-                                        <td><input type="text" name="firstName"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Efternamn: </td>
-                                        <td><input type="text" name="lastName"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>E-mail: </td>
-                                        <td><input type="text" name="email"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>Meddelande:</td>
-                                        <td><textarea rows="5" name="message" cols="30"></textarea></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td><button class="skickaMed" type="submit" name="submit" value="Skicka">Skicka</td>
-</tr>
-<tr>
-<td colspan="100%" class="formInfo"><br>Du måste fylla i alla fält<br><br></td>
-</tr>
-</table>
-</form>
-<?html print($output);?>
-</div>
-</div>
-</div>
-</div>
-</div>
-<footer>
-<div class="footerText">
-<a href="index.html">Hem</a>
-<a href="sortiment.html">Sortiment</a>
-<a href="omoss.html">Om&nbsposs</a>
-<a href="kontakt.html">Kontakt</a>
-<a href="hittahit.html">Hitta&nbsphit</a>
-</div>
-<div class="footerCopy">
-<p>Copyright © 2016 | Hedbro Herrekipering. All rights reserved.</p>
-</div>
-</footer>
-</div>
+                            <form class="" action="http://formspree.io/hedbro.kontakt@gmail.com" method="post">
+                              <label for="fornamn">Förnamn:</label>
+                              <input type="text" name="fornamn" placeholder="Förnamn" style="float: right;">
+                              <br>
+                              <br>
+                              <label for="efternamn">Efternamn:</label>
+                              <input type="text" name="efternamn" placeholder="Efternamn" style="float: right;">
+                              <br>
+                              <br>
+                              <label for="email">E-mail:</label>
+                              <input type="email" name="email" placeholder="E-mail" style="float: right;">
+                              <br>
+                              <br>
+                              <label for="meddelande">Ditt meddelande:</label>
+                              <input type="textarea" name="meddelande" placeholder="Ditt Meddelande" style="float: right;">
+                              <br>
+                              <br>
+                              <input type="text" name="_gotcha" style="display:none" />
+                              <button type="sumbit" name="button">Skicka</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footerText">
+                <a href="index.html">Hem</a>
+                <a href="sortiment.html">Sortiment</a>
+                <a href="omoss.html">Om&nbsposs</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="hittahit.html">Hitta&nbsphit</a>
+            </div>
+            <div class="footerCopy">
+                <p>Copyright © 2016 | Hedbro Herrekipering. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
